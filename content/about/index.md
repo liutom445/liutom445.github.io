@@ -6,13 +6,13 @@ layout: "about"
 
 # Hongyi Liu
 
-**PhD Candidate in Biostatistics** | **University of Michigan**  
+**PhD Student in Biostatistics** | **University of Michigan**  
 [liutom@umich.edu](mailto:liutom@umich.edu) | [LinkedIn](https://linkedin.com/in/hliu3) | [GitHub](https://github.com/liutom445)
 
 ---
 
 ### Professional Summary
-I am a PhD candidate in Biostatistics at the University of Michigan with expertise in **causal inference, machine learning, and real-world evidence (RWE) analysis**. I have a proven track record of developing predictive models and statistical methods for healthcare applications using large-scale Electronic Health Record (EHR) data (1M+ records). My work often involves benchmarking state-of-the-art Large Language Models (LLMs) against traditional ML methods for treatment effect estimation.
+I am a PhD student in Biostatistics at the University of Michigan. My current research interests lie in **causal inference, randomized clinical trials (RCT), optimization, machine learning, and real-world evidence (RWE)**. My work so far has involved using large-scale Electronic Health Record (EHR) data to develop statistical models for healthcare applications. I am also interested in exploring the potential of Large Language Models (LLMs) alongside traditional machine learning methods for treatment effect estimation.
 
 ---
 
@@ -37,13 +37,13 @@ I am a PhD candidate in Biostatistics at the University of Michigan with experti
 
 ### Research Experience
 - **Graduate Student Researcher** | University of Michigan (May 2025 – Present)  
-  Developed high-performance convex optimization algorithms for spatial transcriptomics cell-type deconvolution. Implemented FISTA with efficient sparse matrix operations in C++ (Rcpp/Armadillo), achieving a **45x speedup** over baseline implementations.
+  Working on high-performance convex optimization algorithms for spatial transcriptomics cell-type deconvolution. This involves implementing FISTA with efficient sparse matrix operations in C++ (Rcpp/Armadillo) to improve computational performance.
 - **Graduate Student Researcher** | University of Michigan (Jan 2025 – Present)  
-  Comparing LLMs (GPT-4, Llama-3) with traditional ML for causal inference in clinical trials, achieving comparable performance with a **40% reduction** in feature engineering time.
+  Studying how LLMs (GPT-4, Llama-3) can be used for causal inference in clinical trials, with a focus on reducing the time required for feature engineering compared to traditional machine learning methods.
 - **Graduate Student Researcher** | University of Michigan (Aug 2024 – Dec 2024)  
-  Analyzed COVID-19 vaccine effectiveness across 100,000+ patient records, identifying significant decline patterns across variants (Delta, Omicron).
+  Contributed to the analysis of COVID-19 vaccine effectiveness using a large dataset from the Michigan Medicine EHR system, exploring patterns across different variants.
 - **Data Science Research Intern** | Minnesota Department of Health (May 2023 – Aug 2023)  
-  Processed 1M+ records from the Minnesota Violent Death Reporting System. Developed predictive models (Lasso-logistic, Random Forest) with **85% accuracy** to inform state funding allocation.
+  Supported the Injury & Violence Prevention Unit by analyzing records from the Minnesota Violent Death Reporting System and developing predictive models to assist in identifying high-risk populations.
 
 ---
 
