@@ -1,0 +1,74 @@
+baseURL: https://liutom445.github.io/
+languageCode: en-us
+defaultContentLanguage: en
+title: Hongyi Liu's Blog
+newContentEditor: emacs
+theme: hugo-PaperModX
+
+security:
+  exec:
+    osEnv: ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|HOME|SSH_AUTH_SOCK|USERPROFILE|XDG_CONFIG_HOME|HTTP_PROXY|HTTPS_PROXY)$']
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: algol
+
+params:
+    homeInfoParams:
+      Title: Hongyi Liu
+      Content: >
+        PhD candidate in Biostatistics at the University of Michigan with expertise in causal inference, machine learning, and real-world evidence analysis. 
+        I develop predictive models and statistical methods for healthcare applications using large-scale EHR data.
+
+    socialIcons: # optional
+      - name: email
+        url: mailto:liutom@umich.edu
+      - name: github
+        url: https://github.com/liutom445
+      - name: linkedin
+        url: https://linkedin.com/in/hliu3
+
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto
+    ShowToc: true
+    TocOpen: true
+    TocSide: right
+    ShowBreadCrumbs: true
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 90
+    - identifier: friends
+      name: Friends
+      url: /friends/
+      weight: 70
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 100

@@ -1,0 +1,26 @@
+.theorem {
+  position: relative;
+  padding: 0.1rem .75rem;
+  margin-bottom: 2rem;
+  border: 1px solid transparent;
+  border-style: solid;
+  border-width: 0 0 0 6px;
+  display: block;
+  border-color: var(--border);
+  background-color: var(--code-bg);
+}
+
+.theorem .head {
+  margin: 0 -.75rem;
+  padding: 0 .3rem;
+  font-weight: bold;
+  background-color: var(--border);
+}
+
+.theorem .head p {
+  text-indent: 0;
+}
+
+details.proof {
+  margin-bottom: var(--content-gap);
+}
