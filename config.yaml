@@ -64,10 +64,6 @@ menu:
       name: About
       url: /about/
       weight: 90
-    - identifier: friends
-      name: Friends
-      url: /friends/
-      weight: 70
     - identifier: search
       name: Search
       url: /search/
